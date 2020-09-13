@@ -13,7 +13,7 @@ const cateApi = {
   // 获取一条分类信息
   getcateById(id) {
     return request({
-      url: '/cate/:id',
+      url: '/cate/' + id,
       method: 'get'
     });
   },

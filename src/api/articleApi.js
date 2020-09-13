@@ -13,7 +13,7 @@ const articleApi = {
   // 获取一条文章信息
   getarticleById(id) {
     return request({
-      url: '/article/:id',
+      url: '/article/' + id,
       method: 'get'
     });
   },
